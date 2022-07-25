@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3257e74e-9aaa-4b4c-bb7c-27c9ad9c038c" name="Default Changelist" comment="" />
+    <list default="true" id="3257e74e-9aaa-4b4c-bb7c-27c9ad9c038c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/native/src/main/java/com/chen/consumer_balance/getmessage/GetMessageProducer.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +15,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -37,13 +42,13 @@
     <property name="project.structure.side.proportion" value="0.69655174" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.BackupExProducer">
-    <configuration name="BackupExConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chen.producer_balance.backupexchange.BackupExConsumer" />
+  <component name="RunManager" selected="Application.QosProducer">
+    <configuration name="AckFalseConsumerA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chen.consumer_balance.ackfalse.AckFalseConsumerA" />
       <module name="native" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.chen.producer_balance.backupexchange.*" />
+          <option name="PATTERN" value="com.chen.consumer_balance.ackfalse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -51,12 +56,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BackupExProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chen.producer_balance.backupexchange.BackupExProducer" />
+    <configuration name="AckFalseConsumerB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chen.consumer_balance.ackfalse.AckFalseConsumerB" />
       <module name="native" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.chen.producer_balance.backupexchange.*" />
+          <option name="PATTERN" value="com.chen.consumer_balance.ackfalse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsumerProducerTransaction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chen.producer_balance.transcation.ConsumerProducerTransaction" />
+    <configuration name="AckFalseProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chen.consumer_balance.ackfalse.AckFalseProducer" />
       <module name="native" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.chen.producer_balance.transcation.*" />
+          <option name="PATTERN" value="com.chen.consumer_balance.ackfalse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chen.producer_balance.backupexchange.MainConsumer" />
+    <configuration name="QosConsumerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chen.consumer_balance.qos.QosConsumerMain" />
       <module name="native" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.chen.producer_balance.backupexchange.*" />
+          <option name="PATTERN" value="com.chen.consumer_balance.qos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerTransaction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chen.producer_balance.transcation.ProducerTransaction" />
+    <configuration name="QosProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chen.consumer_balance.qos.QosProducer" />
       <module name="native" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.chen.producer_balance.transcation.*" />
+          <option name="PATTERN" value="com.chen.consumer_balance.qos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BackupExProducer" />
-        <item itemvalue="Application.MainConsumer" />
-        <item itemvalue="Application.BackupExConsumer" />
-        <item itemvalue="Application.ProducerTransaction" />
-        <item itemvalue="Application.ConsumerProducerTransaction" />
+        <item itemvalue="Application.QosProducer" />
+        <item itemvalue="Application.QosConsumerMain" />
+        <item itemvalue="Application.AckFalseProducer" />
+        <item itemvalue="Application.AckFalseConsumerB" />
+        <item itemvalue="Application.AckFalseConsumerA" />
       </list>
     </recent_temporary>
   </component>
@@ -123,7 +128,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658569907175</updated>
-      <workItem from="1658569910398" duration="22274000" />
+      <workItem from="1658569910398" duration="22663000" />
+      <workItem from="1658712229157" duration="41000" />
+      <workItem from="1658748212207" duration="5064000" />
     </task>
     <servers />
   </component>
@@ -135,29 +142,37 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="1070" y="159" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1658592672599" />
-    <state width="1302" height="210" key="GridCell.Tab.0.bottom" timestamp="1658651738854">
+    <state width="1302" height="208" key="GridCell.Tab.0.bottom" timestamp="1658765378565">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1302" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1658651738854" />
-    <state width="1302" height="210" key="GridCell.Tab.0.center" timestamp="1658651738854">
+    <state width="1302" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1658765378565" />
+    <state width="1302" height="208" key="GridCell.Tab.0.center" timestamp="1658765378564">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1302" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1658651738854" />
-    <state width="1302" height="210" key="GridCell.Tab.0.left" timestamp="1658651738853">
+    <state width="1302" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1658765378564" />
+    <state width="1302" height="208" key="GridCell.Tab.0.left" timestamp="1658765378564">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1302" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1658651738853" />
-    <state width="1302" height="210" key="GridCell.Tab.0.right" timestamp="1658651738854">
+    <state width="1302" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1658765378564" />
+    <state width="1302" height="208" key="GridCell.Tab.0.right" timestamp="1658765378565">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1302" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1658651738854" />
+    <state width="1302" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1658765378565" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1658570140307">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1658570140307" />
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1658748288217">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1658748288217" />
     <state x="178" y="116" key="new project wizard" timestamp="1658570316850">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="178" y="116" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1658570316850" />
+    <state x="815" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1658750895558">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="815" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1658750895558" />
   </component>
 </project>
