@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3257e74e-9aaa-4b4c-bb7c-27c9ad9c038c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/native/src/main/java/com/chen/consumer_balance/getmessage/GetMessageProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,27 +28,40 @@
     </option>
   </component>
   <component name="ProjectId" id="2CL7FXjsrlEhbD12G99VZiVw16d" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../LuckysheetServer-main" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.69655174" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.QosProducer">
-    <configuration name="AckFalseConsumerA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chen.consumer_balance.ackfalse.AckFalseConsumerA" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.chen.config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ConsumerMainApplication">
+    <configuration name="MsgAttrConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chen.msgdurable.MsgAttrConsumer" />
       <module name="native" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.chen.consumer_balance.ackfalse.*" />
+          <option name="PATTERN" value="com.chen.msgdurable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -56,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AckFalseConsumerB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chen.consumer_balance.ackfalse.AckFalseConsumerB" />
+    <configuration name="MsgAttrProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chen.msgdurable.MsgAttrProducer" />
       <module name="native" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.chen.consumer_balance.ackfalse.*" />
+          <option name="PATTERN" value="com.chen.msgdurable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AckFalseProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chen.consumer_balance.ackfalse.AckFalseProducer" />
+    <configuration name="ReplyToProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chen.setmsg.ReplyToProducer" />
       <module name="native" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.chen.consumer_balance.ackfalse.*" />
+          <option name="PATTERN" value="com.chen.setmsg.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,39 +95,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QosConsumerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chen.consumer_balance.qos.QosConsumerMain" />
-      <module name="native" />
+    <configuration name="ConsumerMainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="rq-consumer-springboot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.chen.consumer_balance.qos.*" />
+          <option name="PATTERN" value="com.chen.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chen.ConsumerMainApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QosProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chen.consumer_balance.qos.QosProducer" />
-      <module name="native" />
+    <configuration name="SpringbootWithApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="rq-springboot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.chen.consumer_balance.qos.*" />
+          <option name="PATTERN" value="com.chen.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chen.SpringbootWithApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.QosProducer" />
-        <item itemvalue="Application.QosConsumerMain" />
-        <item itemvalue="Application.AckFalseProducer" />
-        <item itemvalue="Application.AckFalseConsumerB" />
-        <item itemvalue="Application.AckFalseConsumerA" />
+        <item itemvalue="Spring Boot.ConsumerMainApplication" />
+        <item itemvalue="Spring Boot.SpringbootWithApplication" />
+        <item itemvalue="Application.MsgAttrProducer" />
+        <item itemvalue="Application.MsgAttrConsumer" />
+        <item itemvalue="Application.ReplyToProducer" />
       </list>
     </recent_temporary>
   </component>
@@ -130,7 +143,15 @@
       <updated>1658569907175</updated>
       <workItem from="1658569910398" duration="22663000" />
       <workItem from="1658712229157" duration="41000" />
-      <workItem from="1658748212207" duration="5064000" />
+      <workItem from="1658748212207" duration="5334000" />
+      <workItem from="1658795857020" duration="9523000" />
+      <workItem from="1658885239793" duration="603000" />
+      <workItem from="1658912936239" duration="2819000" />
+      <workItem from="1658977814508" duration="86000" />
+      <workItem from="1658977931026" duration="37000" />
+      <workItem from="1658978015575" duration="64000" />
+      <workItem from="1658978180608" duration="15780000" />
+      <workItem from="1659198466363" duration="2069000" />
     </task>
     <servers />
   </component>
@@ -138,41 +159,85 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1070" y="159" key="#com.intellij.ide.util.MemberChooser" timestamp="1658592672599">
+    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1659021940397">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="1070" y="159" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1658592672599" />
-    <state width="1302" height="208" key="GridCell.Tab.0.bottom" timestamp="1658765378565">
+    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1659021940397" />
+    <state x="1070" y="159" key="#com.intellij.ide.util.MemberChooser" timestamp="1659199775859">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1302" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1658765378565" />
-    <state width="1302" height="208" key="GridCell.Tab.0.center" timestamp="1658765378564">
+    <state x="1070" y="159" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1659199775859" />
+    <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1659075630935">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1302" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1658765378564" />
-    <state width="1302" height="208" key="GridCell.Tab.0.left" timestamp="1658765378564">
+    <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1659075630935" />
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1659200225507">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1302" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1658765378564" />
-    <state width="1302" height="208" key="GridCell.Tab.0.right" timestamp="1658765378565">
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1659200225507" />
+    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1659200225507">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1302" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1658765378565" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1658570140307">
+    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1659200225507" />
+    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1659200225507">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1658570140307" />
-    <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1658748288217">
+    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1659200225507" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1659200225507">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1658748288217" />
-    <state x="178" y="116" key="new project wizard" timestamp="1658570316850">
+    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1659200225507" />
+    <state width="1493" height="208" key="GridCell.Tab.1.bottom" timestamp="1659200225507">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="178" y="116" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1658570316850" />
+    <state width="1493" height="208" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1659200225507" />
+    <state width="1493" height="208" key="GridCell.Tab.1.center" timestamp="1659200225507">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="208" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1659200225507" />
+    <state width="1493" height="208" key="GridCell.Tab.1.left" timestamp="1659200225507">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="208" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1659200225507" />
+    <state width="1493" height="208" key="GridCell.Tab.1.right" timestamp="1659200225507">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="208" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1659200225507" />
+    <state width="1493" height="261" key="GridCell.Tab.2.bottom" timestamp="1659075633972">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1659075633972" />
+    <state width="1493" height="261" key="GridCell.Tab.2.center" timestamp="1659075633972">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1659075633972" />
+    <state width="1493" height="261" key="GridCell.Tab.2.left" timestamp="1659075633972">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1659075633972" />
+    <state width="1493" height="261" key="GridCell.Tab.2.right" timestamp="1659075633972">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1659075633972" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1659010953980">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1659010953980" />
+    <state x="510" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1658978291926">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="510" y="191" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1658978291926" />
+    <state x="356" y="196" key="new project wizard" timestamp="1659010822575">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="356" y="196" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1659010822575" />
     <state x="815" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1658750895558">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="815" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1658750895558" />
+    <state x="449" y="104" key="spring file set editor" timestamp="1659010947523">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="104" key="spring file set editor/0.0.1536.824@0.0.1536.824" timestamp="1659010947523" />
   </component>
 </project>

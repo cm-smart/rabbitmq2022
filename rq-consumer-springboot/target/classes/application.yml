@@ -1,0 +1,13 @@
+server:
+  port: 8889
+
+spring:
+  application:
+    name: springboot-rabbitmq-consumer
+
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
